@@ -190,7 +190,7 @@
               <!-- printFailingErrors is pretty useful -->
               <printFailingErrors>true</printFailingErrors>
               <rulesets>
-                <ruleset>/mnt/d/CS304/practice-answer.xml</ruleset>
+                <ruleset>/data/practice-answer.xml</ruleset>
               </rulesets>
             </configuration>
             <executions>
