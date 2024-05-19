@@ -140,8 +140,12 @@
         <configuration>
           <includes>
             <include>**/Test*.java</include>
-            <include>**/*sTest.java</include>
+            <include>**/*Test.java</include>
+            <include>Sample.java</include>
           </includes>
+          <excludes>
+            <exclude>**/*Resource.java</exclude>
+          </excludes>
         </configuration>
       </plugin>
 
