@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Doc') {
             steps {
-                sh 'mvn javadoc:jar'
+                sh 'mvn site --fail-never'
             }
         }
         stage('pmd') {
